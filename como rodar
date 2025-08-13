@@ -1,0 +1,15 @@
+1. Rode o backend (API FastAPI)
+No terminal, navegue até a pasta onde está o api.py e execute:
+uvicorn api:app --reload
+
+2. Envie os dados simulados
+No terminal, rode o script Python que envia os dados (ex: simula_dados.py):
+python simula_dados.py
+
+3. Rode o front-end (Next.js/React)
+No terminal, navegue até a pasta do seu projeto Next.js (onde está o package.json do front):
+cd my-react-app/src/my-app
+npm install
+npm run dev
+
+Acesse http://localhost:3000 no navegador.
